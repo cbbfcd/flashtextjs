@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "bench": "npm run build && node bench.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "name": "flashtextjs",
+  "author": "cbbfcd",
+  "module": "dist/flashtext.js.esm.js",
+  "description": "Extract Keywords from sentence or Replace keywords in sentences - flashtext implementation via typescript.",
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "benchmark": "^2.1.4",
+    "husky": "^4.2.3",
+    "tsdx": "^0.12.3",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {}
+}
