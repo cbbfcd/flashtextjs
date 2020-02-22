@@ -25,7 +25,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@cbbfcd/flashtextjs",
+  "name": "flashtext2js",
   "author": "cbbfcd",
   "module": "dist/flashtext.js.esm.js",
   "description": "Extract Keywords from sentence or Replace keywords in sentences - flashtext implementation via typescript.",

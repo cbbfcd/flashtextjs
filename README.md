@@ -11,8 +11,8 @@ Extract Keywords from sentence or Replace keywords in sentences.
 ## Usage
 
 ```js
-npm install flashtextjs
-yarn add flashtextjs
+npm install flashtext2js
+yarn add flashtext2js
 ```
 
 then
