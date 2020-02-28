@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -28,6 +28,13 @@
   "name": "flashtext2js",
   "author": "cbbfcd",
   "module": "dist/flashtext.js.esm.js",
+  "repository": {
+    "url": "https://github.com/cbbfcd/flashtextjs",
+    "type": "github"
+  },
+  "bugs": {
+    "url": "https://github.com/cbbfcd/flashtextjs/issues"
+  },
   "description": "Extract Keywords from sentence or Replace keywords in sentences - flashtext implementation via typescript.",
   "devDependencies": {
     "@types/jest": "^25.1.2",
